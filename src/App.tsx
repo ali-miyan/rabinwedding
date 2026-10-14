@@ -19,7 +19,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const weddingDate = new Date('June 7, 2026 10:30:00').getTime();
+    const weddingDate = new Date('November 7, 2026 16:00:00').getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();
@@ -52,13 +52,13 @@ function App() {
   }, []);
 
   const handleGetDirectionsNikkah = () => {
-    const latitude = 11.2386243;
-    const longitude = 75.7764028;
+    const latitude = 11.4119904;
+    const longitude = 76.0125529;
     window.open(`https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`, '_blank');
   };
 
   const handleSendWishes = () => {
-    window.location.href = "mailto:afridhipm77@gmail.com?subject=Wedding Wishes for Afridhi and Hamda";
+    window.location.href = "mailto:rasalmail99@gmail.com?subject=Wedding Wishes for Rasal and Fidha";
   };
 
   if (isLoading) {
@@ -186,17 +186,17 @@ function App() {
           
           {/* Desktop names */}
           <h1 className="desktop-names text-4xl md:text-6xl lg:text-7xl font-light mb-8 tracking-wider">
-            Afridhi <span className="inline-block mx-2 font-serif italic text-red-200">&</span> Hamda
+            Rasal <span className="inline-block mx-2 font-serif italic text-red-200">&</span> Fidha
           </h1>
           
           {/* Mobile names */}
           <div className="mobile-names mb-8">
-            <span className="name font-light tracking-wider">Afridhi</span>
+            <span className="name font-light tracking-wider">Rasal</span>
             <span className="and font-serif italic text-red-200">&</span>
-            <span className="name font-light tracking-wider">Hamda</span>
+            <span className="name font-light tracking-wider">Fidha</span>
           </div>
           <div className="h-px w-40 bg-red-200 mx-auto mb-8"></div>
-          <p className="text-xl md:text-2xl tracking-wide">June 7, 2026</p>
+          <p className="text-xl md:text-2xl tracking-wide">November 7, 2026</p>
           
           {!countdownFinished ? (
             <div className="mt-16 grid grid-cols-4 gap-6 max-w-lg mx-auto">
@@ -244,7 +244,7 @@ function App() {
       <section id="details" className="py-20 bg-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center px-4 mb-12">
-            <h2 className="text-2xl md:text-4xl font-light mb-2 text-gray-800">Wedding Details</h2>
+            <h2 className="text-2xl md:text-4xl font-light mb-2 text-gray-800">Function Details</h2>
             <p className="text-base text-gray-600 italic mb-4">Join us for our special day</p>
             <div className="h-px w-24 bg-red-300 mx-auto"></div>
           </div>
@@ -259,18 +259,18 @@ function App() {
                 <div className="space-y-4 text-gray-700">
                   <p className="flex items-center justify-start md:justify-center gap-2 text-sm md:text-base">
                     <Calendar size={14} className="text-red-600 shrink-0 w-[14px]" />
-                    <span>June 7, 2026</span>
+                    <span>November 7, 2026</span>
                   </p>
                   <p className="flex items-center justify-start md:justify-center gap-2 text-sm md:text-base">
                     <Clock size={14} className="text-red-600 shrink-0 w-[14px]" />
-                    <span>10:30 AM</span>
+                    <span>4:00 PM</span>
                   </p>
                   <div className="space-y-1 text-sm md:text-base">
                     <p className="flex items-center justify-start md:justify-center gap-2">
                       <MapPin size={14} className="text-red-600 shrink-0 w-[14px]" />
-                      <span className="whitespace-nowrap">SEA SHORE Auditorium</span>
+                      <span className="whitespace-nowrap">REVERA</span>
                     </p>
-                    <p className="pl-[22px] md:pl-0 md:text-center">NR.MMVHSS Parappil</p>
+                    <p className="pl-[22px] md:pl-0 md:text-center">Murampathy, Kodanchery</p>
                   </div>
                   <div className="pt-4 flex justify-start md:justify-center">
                     <button
@@ -331,8 +331,8 @@ function App() {
           <div className="mb-6">
             <Heart className="text-red-400 mx-auto mb-3" size={24} />
           </div>
-          <h2 className="text-3xl font-light mb-4 text-gray-800">Afridhi & Hamda</h2>
-          <p className="mb-6 text-base italic text-gray-500">We joyfully invite you to the wedding</p>
+          <h2 className="text-3xl font-light mb-4 text-gray-800">Rasal & Fidha</h2>
+          <p className="mb-6 text-base italic text-gray-500">We joyfully invite you to the Nikkah</p>
           <p className="mb-6 text-base italic text-gray-500">Together with our families & Friends</p>
           
           <div className="h-px w-24 bg-red-200 mx-auto mb-6"></div>
