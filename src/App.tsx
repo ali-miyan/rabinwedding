@@ -52,8 +52,8 @@ function App() {
   }, []);
 
   const handleGetDirectionsNikkah = () => {
-    const latitude = 11.4119904;
-    const longitude = 76.0125529;
+    const latitude = 11.4195833;
+    const longitude = 76.0186111;
     window.open(`https://www.google.com/maps/dir/?api=1&destination=${latitude},${longitude}`, '_blank');
   };
 
